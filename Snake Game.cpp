@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 typedef struct tailpos
 {
        int x;
@@ -14,7 +13,6 @@ typedef struct tailpos
        struct tailpos *next;
        struct tailpos *prev;
 } tail;
-
 
 int d = 4;
 
@@ -29,8 +27,7 @@ public:
 
        HANDLE console_handle;
        COORD cur_cord;
-
-
+       
 
        tail *start, *current, *newtail;
        snake();
