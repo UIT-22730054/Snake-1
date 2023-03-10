@@ -83,4 +83,6 @@ void DiChuyen (int Huong){
               r. DiChuyen (Huong, Qua);
               sleep (300);
        }
+}
+       
               
